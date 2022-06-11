@@ -12,7 +12,7 @@ $.ajaxPrefilter((option) => {
   }
   //权限校验
   option.complete = (res) => { 
-     console.log(res);
+    //  console.log(res);
             const {responseJSON }=res
             if (responseJSON.status !== 0 && responseJSON.message== '身份认证失败！'){
                 localStorage.removeItem('token')
