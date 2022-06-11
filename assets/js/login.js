@@ -32,7 +32,7 @@ form.verify({
        // 获取 layui 弹窗
 const layer = layui.layer;
 // 设置请求根路径
-const baseUrl = "http://www.liulongbin.top:3007";
+// const baseUrl = "http://www.liulongbin.top:3007";
 
 // 监听注册表单，发送注册请求
 $("#form_reg").on("submit", (e) => {

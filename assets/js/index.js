@@ -14,7 +14,16 @@ function getUserInfo() {
             layer.msg("获取用户信息成功！");
             //调用渲染函数
             renderAvatar(data)
-        }
+        },
+        // complete: (res) => {
+        //     // console.log(res);
+        //     // const {responseJSON }=res
+        //     // if (responseJSON.status !== 0 && responseJSON.message== '身份认证失败！'){
+        //     //     localStorage.removeItem('token')
+        //     //     location.href='/login.html'
+        //     //  }
+      
+        //  }
     })
 };
 getUserInfo()
