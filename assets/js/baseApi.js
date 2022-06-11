@@ -11,7 +11,7 @@ $.ajaxPrefilter((option) => {
     }
   }
   //权限校验
-  option.complate = (res) => { 
+  option.complete = (res) => { 
      console.log(res);
             const {responseJSON }=res
             if (responseJSON.status !== 0 && responseJSON.message== '身份认证失败！'){
