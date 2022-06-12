@@ -54,3 +54,8 @@ $("#btnLogout").click(() => {
         }
     );
 });
+
+//切换高亮
+function change() { 
+    $(article_list_change).addClass('layui-this').siblings().removeClass('layui-this');
+}
